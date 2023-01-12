@@ -1,0 +1,33 @@
+import React from 'react'
+import {Page, Document, StyleSheet} from '@react-pdf/renderer'
+import {DriversReportNo} from './DriversReportNo'
+import {DriversReportTable} from './Table/DriversReportTable'
+// import Footer from './Footer'
+
+
+const styles = StyleSheet.create({
+  page: {
+    fontSize: 11,
+    paddingTop: 30,
+    paddingLeft: 20,
+    paddingRight: 20,
+    lineHeight: 1.5,
+    flexDirection: 'column',
+  },
+  logo: {
+    width: 74,
+    height: 66,
+    marginLeft: 'auto',
+    marginRight: 'auto'
+  }
+});
+
+export const DriversReport = ({driverReports}) => (
+  <Document>
+    <Page size="A4" orientation='landscape' style={styles.page}>
+      <DriversReportNo invoice={driverReports}/>
+      <DriversReportTable invoice={driverReports}/>
+      {/*<Footer/>*/}
+    </Page>
+  </Document>
+);

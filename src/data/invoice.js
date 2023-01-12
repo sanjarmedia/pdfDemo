@@ -1,0 +1,162 @@
+const invoice = {
+  "id": "5df3180a09ea16dc4b95f910",
+  "invoice_no": "201906-28",
+  "balance": "$2,283.74",
+  "company": "IGN Global INC",
+  "email": "susanafuentes@mantrix.com",
+  "phone": "+1 (872) 588-3809",
+  "address": "2901 oceanPkwy apt E 11 \n Brooklyn NY 1123 \n 929-104-8680",
+  "range1_date": "4/1/2022",
+  "range2_date": "6/30/2022",
+  "vehicle": "210",
+  'generated': '7/8/2022 12:16 PM EST',
+  "ifata_status": "ifta by vehicle: 210 - 2022 -Q2",
+  "items": [
+    {
+      "sno": 1,
+      "state": "Alabama",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 2,
+      "state": "Arizona",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 3,
+      "state": "California",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 4,
+      "state": "Florida",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 5,
+      "state": "Lowa",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 6,
+      "state": "Indiana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 7,
+      "state": "Michigan",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 8,
+      "state": "Montana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 9,
+      "state": "Alabama",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 10,
+      "state": "Montana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 11,
+      "state": "New York",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 12,
+      "state": "Montana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 13,
+      "state": "Ohio",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 14,
+      "state": "Montana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 15,
+      "state": "Chio",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 16,
+      "state": "California",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 17,
+      "state": "Montana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 18,
+      "state": "Lowa",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 19,
+      "state": "Montana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 20,
+      "state": "Indiana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 21,
+      "state": "Montana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 22,
+      "state": "Michigan",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 23,
+      "state": "Montana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    },
+    {
+      "sno": 24,
+      "state": "Montana",
+      "identified_miles": 1201.5,
+      "unidentified_miles": 0.0,
+    }
+  ]
+}
+
+export default invoice
